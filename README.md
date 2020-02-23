@@ -1,8 +1,14 @@
 # Motivation
+<<<<<<< HEAD
+=======
+
+![Flexbox Demo](/images/flexbox-demo.png)
+>>>>>>> b9da3aec7017adb21618178c40f5c2497c0db59c
 
 The purpose of this demo is to deepen my understanding of flexbox and explore the use case of using flexbox. 
 Build mobile first design with responsive media query.
 
+<<<<<<< HEAD
 ![Flexbox Demo](/images/flexbox-demo.png)
 
 ## Flexbox properties
@@ -11,6 +17,14 @@ Build mobile first design with responsive media query.
 * flex-shrink
 * flex-wrap
 * flex-flow
+=======
+## Flexbox properties
+flex-basis
+flex-grow
+flex-shrink
+flex-wrap
+flex-flow
+>>>>>>> b9da3aec7017adb21618178c40f5c2497c0db59c
 
 ## Design Specification
 
