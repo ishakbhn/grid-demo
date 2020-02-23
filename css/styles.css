@@ -1,2 +1,101 @@
-/* font-family: 'Blinker', sans-serif; */
-/* font-family: 'Source Sans Pro', sans-serif; */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 90%;
+    max-width: 800px;
+    background: #111D4A;
+    color: #FFF;
+    display:flex;
+    flex-direction: column;
+}
+
+.card-image {
+    object-fit: cover;
+    flex-basis: 200px;
+    min-width: 0; /*this is to overcome a bug of using flex-basis on img element (only happens in chrome)*/
+    min-height: 0; /*this is to overcome a bug of using flex-basis on img element (only happens in chrome)*/
+}
+
+.card-content {
+    padding: 1em;
+}
+
+.card-title,
+.card-read-time,
+.card-button {
+    font-family: 'Blinker', sans-serif;
+}
+
+.card-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: #05CBE9;
+}
+
+.card-body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 3em;
+}
+
+.card-read-time {
+    margin: 0;
+    opacity: .6;
+}
+
+.card-read-time span {
+    font-weight: 700;
+    display: block;
+}
+
+.card-button {
+    background: #05CBE9;
+    color: #111D4A;
+    font-size:1.25rem;
+    font-weight: 700;
+    padding: .35em 1em;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 600px) {
+    .card {
+        flex-direction: row;
+    }
+    
+    .card-img {
+        height: 300px;
+    }
+    
+    .card-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-title {
+        font-size: 2.25rem;
+    }
+
+    .card-body {
+        font-size: 1.125rem;
+        max-width: 500px;
+    }
+    
+    .card-footer {
+        margin-top: auto;
+    }
+}
