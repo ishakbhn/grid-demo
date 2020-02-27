@@ -15,6 +15,8 @@ The Design that I will be using is the same design as my Flexbox Demo.
 * grid-template (short-hand)
 * grid-column
 * grid-row
+* grid-column-gap
+* grid-row-gap
 * align-items
 * justify-items
 * align-self
