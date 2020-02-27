@@ -1,16 +1,24 @@
 # Motivation
 
-The purpose of this demo is to deepen my understanding of flexbox and explore the use case of using flexbox. 
+The purpose of this demo is to deepen my understanding of grid and explore the use case of using grid.
+Usage of grid flatten out the HTML markup.
 Build mobile first design with responsive media query.
+The Design that I will be using is the same design as my Flexbox Demo.
+[flexbox-demo](https://github.com/ishakbhn/flexbox-demo)
 
-![Flexbox Demo](/images/flexbox-demo.png)
+![Grid Demo](/images/flexbox-demo.png)
 
-## Flexbox properties
-* flex-basis
-* flex-grow
-* flex-shrink
-* flex-wrap
-* flex-flow
+## grid properties
+
+* grid-template-row
+* grid-template-column
+* grid-template (short-hand)
+* grid-column
+* grid-row
+* align-items
+* justify-items
+* align-self
+* justify-self
 
 ## Design Specification
 
